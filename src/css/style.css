@@ -1,0 +1,224 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-header {
+  position: relative;
+}
+
+.header-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  height: 50px;
+  background: #212121;
+}
+
+.header-nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 70px;
+  margin: 0;
+  list-style: none;
+}
+
+.header-nav__item {
+  border-right: 2px dashed #000000;
+  padding-right: 28px;
+}
+
+.header-nav__item:last-child {
+  border: none;
+}
+
+.header-nav__link {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.subheader {
+  position: absolute;
+  margin-top: 50px;
+  width: 100%;
+  height: 87px;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+.subheader__logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader__official {
+  font-weight: 100;
+  font-size: 13px;
+  color: #ffffff;
+  margin-top: 6px;
+}
+
+.subheader__call {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 18px;
+  text-align: right;
+}
+
+.subheader__phone {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  margin-top: 6px;
+  text-align: right;
+}
+
+.btn {
+  display: block;
+  width: 172px;
+  height: 46px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.subheader__btn {
+  margin-top: 18px;
+}
+
+.promo {
+  /* position: relative;
+  top: -87px;
+  z-index: -1; */
+  min-height: 800px;
+  background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+}
+
+.promo__header {
+  font-weight: 900;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.promo__subheader {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.promo__text-top,
+.promo__text-bottom {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.promo__text-top {
+  margin-top: 16px;
+}
+
+.promo__text-bottom {
+  margin-top: 40px;
+}
+
+.promo__btn {
+  margin: 0 auto;
+  margin-top: 115px;
+}
+
+.advantages {
+  padding: 20px 0 64px 0;
+}
+
+.section-title {
+  display: block;
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 8px 10px;
+  margin: 0 auto;
+}
+
+.advantages__subtitle {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.advantages__list {
+  margin-top: 16px;
+}
+
+.advantages__item {
+  display: flex;
+  padding-left: 35px;
+  align-items: flex-start;
+}
+
+.advantages__item-img {
+  width: 116px;
+  height: 116px;
+  background: #1EACC7;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.advantages__item-text {
+  padding-left: 25px;
+  max-width: 400px;
+}
+
+.advantages__item-title {
+  margin: 0;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1EACC7;
+}
+
+.advantages__item-descr {
+  margin: 0;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #202020;
+  margin-top: 5px;
+}
+
+.advantages .row {
+  margin-bottom: 26px;
+}
+
+.advantages .row:last-child {
+  margin-bottom: 0;
+}
